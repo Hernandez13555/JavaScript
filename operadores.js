@@ -28,8 +28,18 @@
 
 // console.log(a !== b);
 
-let i = 0;
-console.log(i++);
-console.log(i);
-console.log(i++);
-console.log(i);
+// let i = 0;
+// console.log(i++);
+// console.log(i);
+// console.log(i++);
+// console.log(i);
+
+// let i = 0;
+
+// console.log(i = + 4);
+
+
+let a =5;
+let b = 7;
+
+console.log(false || true); 
