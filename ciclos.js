@@ -16,25 +16,36 @@
 
 
 
+// for (let i = 0; i < 10; i++) {
+//     if (i === 4) {
+//         continue;
+//     }
+//     console.log(` Item ${i}`);
+// }
 
-let contador = 0;
-let num = 2;
 
-for (let contador = 0; contador < 5; num++) {
-    let esPrimo = true;
 
-    // Verificar si num es primo
-    for (let i = 2; i <= Math.sqrt(num); i++) {
-        if (num % i === 0) {
-            esPrimo = false;
-            break;
-        }
-    }
+// const numeros = [1,2,3,4];
 
-    // Si es primo, imprimir el número y aumentar el contador
-    if (esPrimo) {
-        console.log(num);
-        contador++;
-    }
+// // let a = numeros[0];
+// // let b = numeros[1];
+// // let c = numeros[2];
+// // let d = numeros[3];
+
+// let [a,b,c,d,e = 25] = numeros;
+
+// console.log(a,b,c,d,e);
+
+const persona = {
+    nombre: "Reinel",
+    apellido: "Hernandez",
+    edad: 17
 }
 
+// let a = persona.nombre;
+// let b = persona.apellido;
+// let c = persona.edad;
+
+let {a,b,c} = persona;
+
+console.log(a,b,c);
